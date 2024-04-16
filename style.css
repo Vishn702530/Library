@@ -1,0 +1,94 @@
+::backdrop {
+    background-image: linear-gradient(90deg,
+            magenta,
+            rebeccapurple,
+            dodgerblue,
+            green);
+    opacity: 0.75;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(0, 204, 255), rgb(245, 245, 158));
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+#newbook {
+    width: 130px;
+    height: 45px;
+    border-radius: 10px;
+    color: white;
+    background-image: linear-gradient(to left, rgb(0, 204, 255), rgb(245, 245, 158));
+    align-items: center;
+    margin-left: 45%;
+    border: none;
+    color: black;
+}
+
+#newbook:hover {
+    background-image: linear-gradient(to right, rgb(0, 204, 255), rgb(245, 245, 158));
+}
+
+.book-card {
+    background-image: linear-gradient(to left, rgb(0, 204, 255), rgb(245, 245, 158));
+    color: black;
+    align-items: center;
+    margin-top: 7%;
+    margin-left: 35%;
+    width: 30%;
+    padding-left: 15px;
+    padding-top: 15px;
+    border-radius: 10px;
+    height: 200px;
+}
+
+.book-card:hover {
+    background-image: linear-gradient(to right, rgb(0, 204, 255), rgb(245, 245, 158));
+}
+
+#booklist {
+
+    height: 100%;
+    padding-top: 2%;
+
+}
+
+#remov {
+    background-image: linear-gradient(to right, rgb(0, 204, 255), rgb(245, 245, 158));
+    height: 25px;
+    color: black;
+    border-radius: 7px;
+    border: none;
+}
+
+dialog {
+    background-image: linear-gradient(to right, rgb(0, 204, 255), rgb(245, 245, 158));
+    border-radius: 10px;
+    border: none;
+}
+
+#close {
+    background-image: linear-gradient(to right, rgb(197, 38, 38), rgb(231, 125, 25));
+    color: white;
+    width: 70px;
+    height: 25px;
+    border-radius: 7px;
+    border: none;
+}
+
+#sub {
+    background-image: linear-gradient(to right, rgb(128, 240, 24), rgba(17, 88, 11, 0.637));
+    color: white;
+    width: 70px;
+    height: 25px;
+    border-radius: 7px;
+    border: none;
+}
+
+input {
+    border-radius: 5px;
+    border: none;
+}
